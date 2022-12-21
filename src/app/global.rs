@@ -1,3 +1,5 @@
+use eframe::egui;
+
 pub const COLOR_RED1: egui::Color32 = egui::Color32::from_rgb(255,51,51);
 pub const COLOR_RED2: egui::Color32 = egui::Color32::from_rgb(255,0,0);
 pub const COLOR_RED3: egui::Color32 = egui::Color32::from_rgb(204,0,0);
