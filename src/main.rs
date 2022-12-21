@@ -1,6 +1,6 @@
 use eframe;
 
-use navigator::app::switcher::SwitcherApp;
+use rust-egui-basic-navigation::app::switcher::SwitcherApp;
 
 fn main() -> Result<(), Box<dyn std::error::Error>>{
     let native_options = eframe::NativeOptions::default();
